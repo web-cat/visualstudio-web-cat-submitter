@@ -3,8 +3,8 @@
  |*-------------------------------------------------------------------------*|
  |  Copyright (C) 2008 Virginia Tech
  |
- |  This file is part of the Web-CAT Electronic Submission Package for Visual
- |	Studio.NET.
+ |  This file is part of the Web-CAT Electronic Submission engine for the
+ |	.NET framework.
  |
  |  Web-CAT is free software; you can redistribute it and/or modify
  |  it under the terms of the GNU Affero General Public License as published
@@ -27,15 +27,22 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Web-CAT Electronic Submitter")]
+[assembly: AssemblyTitle("WebCATSubmitter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Web-CAT Development Team")]
-[assembly: AssemblyProduct("Web-CAT Electronic Submitter")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("WebCATSubmitter")]
+[assembly: AssemblyCopyright("Copyright ©  2008")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]   
-[assembly: ComVisible(true)]     
+[assembly: AssemblyCulture("")]
+
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(false)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("98567e0f-7117-4a1b-9ebb-007fbd81f6f6")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -46,6 +53,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
